@@ -8,7 +8,6 @@ public class Customer {
   private String password;
   private int accountId;
 
-
   public Customer(int id, String name, String username, String password, int accountId) {
     this.id = id;
     this.name = name;
@@ -16,8 +15,6 @@ public class Customer {
     this.password = password;
     this.accountId = accountId;
   }
-
-
 
   public int getId() {
     return this.id;
@@ -58,6 +55,5 @@ public class Customer {
   public void setAccountId(int accountId) {
     this.accountId = accountId;
   }
-
 
 }
